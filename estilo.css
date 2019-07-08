@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  padding-top:50px;
+  background-color:#111;
+  text-align:center;
+  color:#FFF;
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+
+html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #1b8bd2;
+        background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+                          linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+                          linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+                          linear-gradient(90deg, transparent 50%, rgba(255,255,255,.29) 50%);
+        background-size: 43px, 59px, 67px, 83px;
+      }
+      
+      .example {
+          height: 100%;
+          width: 100%;
+          margin: auto;
+          background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 73%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+          background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(73%,rgba(0,0,0,0.35)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+          background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 73%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+          background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 73%,rgba(0,0,0,0.65) 100%); /* Opera 12+ */
+          background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 73%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+          background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 73%,rgba(0,0,0,0.65) 100%); /* W3C */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        }
+
+/*body {
+  background: linear-gradient(130deg, #543958 0%, #a06060 25%, #bea27b 50%, #9ca898 75%, #506d8d 100%) no-repeat center center fixed;
+  background-size: cover;
+}*/
+
+/***BANNER
+*****************************************/
+
+/***BUTTERFLY
+*****************************************
+.main {
+  background-image: url(http://chichi65.persiangig.com/image/2b0f%5B1%5D.jpg);
+  background-position: center;
+  -webkit-mask-image: url(https://techflourish.com/images/free-animated-butterfly-clipart-3.jpg), url(http://bestanimations.com/Animals/Insects/Butterflys/butterfly-animated-gif-45.gif);
+  mask-image: url(https://techflourish.com/images/free-animated-butterfly-clipart-3.jpg), url(http://bestanimations.com/Animals/Insects/Butterflys/butterfly-animated-gif-45.gif);
+  -webkit-mask-size: contain, 0;
+  mask-size: contain, 0;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+.main:hover {
+  -webkit-mask-size: 0, contain;
+  mask-size: 0, contain;
+  cursor: pointer;
+  background-image: url(https://cdn1.imggmi.com/uploads/2018/10/15/78ce8e77778c889ff265561d963a226b-full.jpg);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+
+/***MENU
+*******************************/
+  body {
+  background: #DDD8D5;
+  color: #91966E;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+h1, h5 {
+  font-weight: 100;
+}
+
+section {
+  background: #E4E4E6;
+  padding: 6rem 3rem;
+  margin: 0;
+}
+
+.hamburger {
+  position: absolute;
+  margin: 50px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.line {
+  width: 50px;
+  height: 6px;
+  background: #BCAD90;
+  margin-bottom: 5px;
+}
+
+.menu {
+  width: 320px;
+  height: 100%;
+  background: #BCAD90;
+  position: fixed;
+  top: 0;
+  left: -320px;
+  transition: left .1s;
+}
+
+.menu-item:first-child {
+  margin-top: 180px;
+}
+
+.menu--open {
+  left: 0;
+}
+
+.menu-item {
+  color: #fff;
+  width: 100%;
+  padding: 1rem 3rem;
+  box-sizing: border-box;
+}
+
+.menu-item:hover {
+  background: #91966E;
+  cursor: pointer;
+}
+
+
+/**CONTEÚDO
+*************************************************/
+
+
+h1 {
+  color: #eee;
+  font-weight: normal;
+  text-align: center;
+}
+#lipsum {
+  column-count: 3;
+}
